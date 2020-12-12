@@ -19,7 +19,7 @@ class Formatter {
         newArray.push(string.toUpperCase())
       } else {
         if (except.includes(array[i])) {
-          result.push(array[i])
+          newArray.push(array[i])
         } else {
           newArray.push(string.toUpperCase())
         }
